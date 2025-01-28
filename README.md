@@ -30,4 +30,9 @@ To enhance the appreciation of cultural heritage through interactive exploration
 - **Mobile Development:** Android Studio
 - **Programming Languages:** C# (Unity), React Native
 
-![download (1)](https://github.com/user-attachments/assets/545df6c2-6b8d-4686-b62b-9f42ac4fdad5)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/545df6c2-6b8d-4686-b62b-9f42ac4fdad5" alt="Download Example" width="400">
+</p>
+
+
