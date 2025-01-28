@@ -6,8 +6,6 @@ ARtifact is a mobile augmented reality (AR) application designed to promote cult
 
 ## 📱 Application Overview
 
-![download](https://github.com/user-attachments/assets/c4d0628d-6f49-46ce-b639-e1f9f1373bd4)
-
 ### Name
 **ARtifact**
 
