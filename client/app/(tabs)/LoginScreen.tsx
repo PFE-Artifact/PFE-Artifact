@@ -25,6 +25,7 @@ export default function LoginScreen() {
       const userCredentials = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredentials.user;
       console.log('User signed in:', user);
+      navigation.navigate('HomePage');
     } catch (error: any) {
       Alert.alert('Error', error.message);
     }
