@@ -36,16 +36,20 @@ const Homepage = () => {
           <Text style={styles.gamesText}>Games</Text>
           <View style={[styles.gameBox, { top: 63, left: 5 }]} />
           <View style={[styles.gameBox, { top: 99, left: 219 }]} />
-          <Image source={require('../assets/images/puzzle.png')} style={[styles.gameIcon, { top: 111, left: 236 }]} />
+          <Image source={require('../assets/images/puzzle.png')} style={[styles.gameIcon2, { top: 111, left: 236 }]} />
           <View style={[styles.gameTextContainer, { top: 108, left: 292 }]}>
             <Text style={styles.gameText}>Game 3</Text>
             <Text style={styles.gameSubText}>Puzzle</Text>
           </View>
-          <Image source={require('../assets/images/cross.png')} style={[styles.gameIcon, { top: 70, left: 25 }]} />
-          <View style={[styles.gameTextContainer, { top: 70, left: 87 }]}>
-            <Text style={styles.gameText}>Game 1</Text>
-            <Text style={styles.gameSubText}>Quizz</Text>
+          <TouchableOpacity onPress={() => navigation.navigate("Quiz")}>
+          <View style={{ flexDirection: "row", alignItems: "center", top: 70, left: 25 }}>
+            <Image source={require("../assets/images/cross.png")} style={styles.gameIcon} />
+            <View style={[styles.gameTextContainer, { left: 20 }]}>
+              <Text style={styles.gameText}>Game 1</Text>
+              <Text style={styles.gameSubText}>Quizz</Text>
+            </View>
           </View>
+    </TouchableOpacity>
           <Image style={[styles.gameVector, { top: 70, left: 4 }]} />
           <Image style={[styles.gameVector, { top: 111, left: 219 }]} />
           <View style={[styles.gameBox, { top: 155, left: 5 }]} />
@@ -183,6 +187,14 @@ const styles = StyleSheet.create({
     width: 31,
     height: 31,
     position: 'absolute',
+    marginLeft : -15
+
+  },
+  gameIcon2: {
+    width: 31,
+    height: 31,
+    position: 'absolute',
+
   },
   iconHunt: {
     width:41,
