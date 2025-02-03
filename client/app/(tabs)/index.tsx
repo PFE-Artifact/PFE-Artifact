@@ -19,7 +19,7 @@ export default function HomeScreen() {
       {/* Image Section */}
       <View style={styles.imageContainer}>
         <Image 
-        source={require('../assets/images/HomeScreen.png')}
+        source={require('../assets/images/home (1).png')}
           style={styles.image} 
           resizeMode="contain" 
         />
